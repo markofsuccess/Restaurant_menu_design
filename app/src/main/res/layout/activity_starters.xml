@@ -2,12 +2,13 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    android:layout_gravity="center">
+    android:layout_gravity="center"
+    android:orientation="vertical">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="I made ti to a brand new Activity!"/>
+    <!---listview creates a single item layout for the listview and give it the items you want to repeat and the listview will take care of displaying that-->
+    <ListView
+        android:id="@+id/list_view_starters"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
 
 </LinearLayout>
